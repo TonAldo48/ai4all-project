@@ -1,19 +1,11 @@
-# (UPDATE IN README.md) Project Title
+# Health Facility Resilience to Power Outages in the United States
 
-(UPDATE IN README.md)
-Briefly describe the purpose/result(s) of your project, the skills you applied, and the AI4ALL Ignite program.
-
-*EXAMPLE:*
-*Uncovered and meticulously analyzed three distinct biases present in ChatGPT, employing advanced Python techniques and data analysis methodologies, all within AI4ALL's cutting-edge AI4ALL Ignite accelerator.*
+This project aims to address the critical challenge of natural disasters disrupting both energy supply and health services. It proposes developing an emergency power allocation model, especially drawing from renewable energy sources, for mobile health units and backup systems in the U.S. 
 
 
 ## Problem Statement <!--- do not change this line -->
 
-(UPDATE IN README.md)
-Describe the motivation for this project, why it is relevant, and what its impacts are.
-
-*EXAMPLE:*
-*Given the substantial daily output of responses, the identification and mitigation of ChatGPT's biases become critical, safeguarding both the multitude of users and the far-reaching consequences they may influence.*
+Can we accurately predict which U.S. health entities are most vulnerable during a hazardous natural disaster and the amount of renewable emergency power allocated for mobile backup units?
 
 ## Key Results <!--- do not change this line -->
 
@@ -30,38 +22,31 @@ Enumerate the main results of this project in a list and describe them.
 
 ## Methodologies <!--- do not change this line -->
 
-(UPDATE IN README.md)
-
-*EXAMPLE:*
-*To accomplish this, we utilized the OpenAI API to interact with ChatGPT, and we designed a custom Python script to generate diverse prompts and collect corresponding responses. The data was then processed and analyzed using pandas, enabling us to detect patterns and biases in the AI model's outputs.*
-*Engineered a Python script to generate over 1,000 prompts and elicit their responses from ChatGPT, utilizing pandas to collect the data. When prompted for solutions to this specific relevant crisis, nearly 80% of ChatGPT's responses promoted a certain worldview.*
+### Algorithms to be used:
+- Multi-Output Gradient Boosting Regressor
+- Prophet
+- Neural Networks
 
 
 ## Data Sources <!--- do not change this line -->
 
-(UPDATE IN README.md)
-Include any relevant data sources that were used in your project.
+- U.S. Health Facility Database from Kaggle: [Link to Kaggle Dataset](https://www.kaggle.com/datasets/carlosaguayo/usa-hospitals)
+- Electric Power Consumption Forecasting from Kaggle: [Link to Kaggle Dataset](https://www.kaggle.com/code/nechbamohammed/electric-power-consumption-forecasting#notebook-container)
+- Weather and Renewable Energy Analysis from Kaggle: [Link to Kaggle Dataset](https://www.kaggle.com/code/samanemami/weather-and-renewable-energy-analysis/input)
 
-*EXAMPLE:*
-*Kaggle Datasets: [Link to Kaggle Dataset](https://www.kaggle.com/datasets)*
 
 ## Technologies Used <!--- do not change this line -->
 
-(UPDATE IN README.md)
-List the technologies, libraries, and frameworks used in your project.
-
-*EXAMPLE:*
-- *Python*
-- *pandas*
-- *OpenAI API*
+- Python
+- pandas
+- Google Collab
+- Numpy
 
 
 ## Authors <!--- do not change this line -->
 
-(UPDATE IN README.md)
-List the names and contact information (e.g., email, GitHub profiles) of the authors or contributors.
-
-*EXAMPLE:*
-*This project was completed in collaboration with:*
-- *John Doe ([john.doe@example.com](mailto:john.doe@example.com))*
-- *Jane Smith ([jane.smith@example.com](mailto:jane.smith@example.com))*
+This project was completed in collaboration with:
+- Chelsea Ross ([chelsea@example.com](mailto:john.doe@example.com))
+- Tram Tran ([tram@example.com](mailto:jane.smith@example.com))
+- Gulzira Abdullah ([gulzira@example.com](mailto:jane.smith@example.com))
+- Sumodha ([sumodha@example.com](mailto:jane.smith@example.com))
